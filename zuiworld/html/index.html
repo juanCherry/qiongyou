@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/windex.css"/>
+    <script src="../js/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="../js/jquery-2.2.3.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+  	<script type="text/javascript">
+  		// $(document).ready(function(){
+  		// 	$('#center').mousedown(function(){
+  		// 		$('#menu').css('display','none');
+  		// 	});
+  		// 	$('#searchForm').mousedown(function(e){
+  		// 		e.stopPropagation();
+  		// 		$('#menu').css('display','block');
+  		// 	})
+  		// })
+			</script>
+  </head>
+  <body>
+    <div id="header">
+
+    </div>
+
+    <div id="center">
+			<img src="../img/foot-logo.png"/>
+			<div class="form">
+				<input type="image" name="" value="" id="search" src='../img/cityseach.png'>
+				<input type="text" name="" value="" id="searchText" placeholder="搜索国家、城市、产品">
+      </div>
+
+				<!-- 搜索下拉菜单 -->
+			<div id="menu" style="display:block">
+				<ul></ul>
+			</div>
+
+
+
+			<div id="centerright">
+				<img src="../img/buy.png"/>
+				<p>我的订单</p>
+				<p>|</p>
+				<img src="../img/like.png"/>
+				<p>我的收藏</p>
+			</div>
+		</div>
+
+		<div id="navigation">
+			<ul>
+				<li>热门目的地</li>
+				<li>首页</li>
+				<li>机酒自由行</li>
+				<li>城市玩乐</li>
+				<li>签证</li>
+				<li>租车自驾</li>
+				<li>邮轮</li>
+				<li>海岛游</li>
+				<li>限时特卖</li>
+				<li>特色路线</li>
+				<li>CityWalk</li>
+			</ul>
+		</div>
+  	<div id="showImg">
+  		<img src="../img/bannercenter.png"/>
+  	</div>
+  	<div id="showcity">
+  		<div id="city">
+  			<p>
+  				<label>所在城市</label>
+  				<span id="span1">
+  					全部
+  				</span>
+  				<ul>
+  					<li>上海</li>
+  					<li>北京</li>
+  					<li>京都</li>
+  					<li>广州</li>
+  					<li>东京</li>
+  					<li>布拉格</li>
+  					<li>巴塞罗那</li>
+  					<li>纽约</li>
+  					<li>巴黎</li>
+  					<li>墨尔本</li>
+  					<li>汉堡</li>
+  					<li>马德里</li>
+  					<li>米兰</li>
+  					<li>富罗伦萨</li>
+  					<li>台北</li>
+  					<li>香港</li>
+  					<li>博洛尼亚</li>
+  					<li>伦敦</li>
+  				</ul>
+  			</p>
+  	 </div>
+  	</div>
+  	<div id="saleNum">
+  	  	<p>综合排名</p>
+  	  	<p>销量</p>
+  	  	<p>今日新品</p>
+  	</div>
+  	<div id="worldCenter">
+      <div class="box">
+      </div>
+      <p id='fenyeId'>
+  		   <!-- <span class="pageone">1</span>
+  		   <span class="pagetwo">2</span>
+  		   <span class="pagenext">下一页</span> -->
+  		</p>
+    </div>
+  	<div id="worldFooter" style="height:480px"></div>
+  </body>
+  <script src="../js/seacher.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/cityjson.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $('#header').load('../html/whead.html');
+    $('#worldFooter').load('../html/wfoot.html');
+  </script>
+</html>

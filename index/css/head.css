@@ -1,0 +1,250 @@
+@charset "UTF-8";
+*{
+  padding: 0px;
+  margin:0px;
+  list-style:none;
+}
+#head{
+  width:1347px;
+  height:32px;
+  background-color: #323232;
+  position: relative;
+}
+#head>img:nth-of-type(1){
+  position: absolute;
+  top:6px;
+  left:25px;
+}
+#head>#firstUl{
+  position:absolute;
+  left:102px;
+  width:510px;
+  top:6px;
+}
+#head>#firstUl>li{
+  font-size:14px;
+  font-weight:bold;
+  float:left;
+  height:27px;
+  /*width:70px;*/
+  position: relative;
+  line-height: 20px;
+}
+#head>#firstUl>li a{
+  text-decoration: none;
+  color:#c0c0c0;
+  height:27px;
+  padding:0 10px;
+}
+#head>#firstUl>li:hover{
+  background-color: #323232;
+}
+#head>#firstUl>li>a:hover{
+  color: green;
+}
+#first li:hover,#second li:hover,#third li:hover{
+  background-color: #c0c0c0;
+}
+#head>#firstUl>li:nth-of-type(4),#firstUl>li:nth-of-type(8){
+  background-image: url('../img/xia.png');
+  background-repeat: no-repeat;
+}
+#head>#firstUl>li:nth-of-type(5){
+  background-image: url('../img/showXia.png');
+  background-repeat: no-repeat;
+  background-position: 75px 5px;
+}
+#head>#firstUl>li:nth-of-type(4){
+  background-position: 45px 5px;
+}
+#head>#firstUl>li:nth-of-type(8){
+  background-position: 45px 5px;
+}
+#head>#firstUl>li:nth-of-type(4),#firstUl>li:nth-of-type(5),#firstUl>li:nth-of-type(8){
+  padding: 0 15px 0 0;
+}
+#head>#firstUl>li:nth-of-type(4):hover,#head>#firstUl> li:nth-of-type(5):hover,#head>#firstUl >li:nth-of-type(8):hover{
+    background-image: url('../img/showXia.png');
+}
+#first,#second,#third{
+  color:gray;
+  font-size: 16px;
+  background-color: white;
+  position: absolute;
+  border-radius: 5px;
+  overflow: hidden;
+  display: none;
+}
+#first>li,#second>li,#third>li{
+  line-height: 30px;
+  height: 30px
+  float: none;
+  overflow: hidden;
+}
+#first li img,#second li img,#third li img{
+  vertical-align: middle;
+  margin-left: 15px;
+}
+#first{
+  width:190px;
+  left:0px;
+  top:26px;
+  padding: 5px 0;
+}
+#second{
+  width:140px;
+  left:0px;
+  top:26px;
+  padding: 5px 0;
+}
+#third{
+  width:130px;
+  left:0px;
+  top:26px;
+  padding: 5px 0;
+}
+b{
+  position: absolute;
+  border:6px solid transparent;
+  border-bottom-color: white;
+  display: none;
+}
+#head #firstUl li:nth-of-type(4):hover>ul,#head #firstUl li:nth-of-type(5):hover>ul,#head #firstUl li:nth-of-type(8):hover>ul{
+  display: block;
+  z-index: 2;
+}
+#head>#firstUl>li:nth-of-type(4):hover>b,#head>#firstUl>li:nth-of-type(5):hover>b,#head>#firstUl>li:nth-of-type(8):hover>b{
+  display: block;
+  left:30px;
+  top:15px;
+}
+/*#head>img:nth-of-type(2){
+  position: absolute;
+  left:1100px;
+  top:5px;
+}*/
+#first>li:nth-of-type(1){
+}
+.hoverdiv{
+  width:500px;
+  height: 300px;
+  position: absolute;
+  left:
+  background-color: black;
+}
+.hoverul{
+  width:500px;
+  height: 300px;
+  position: absolute;
+  left:0px;
+  top: 0px;
+  /*left: 100px;*/
+
+  /*background-color: black;*/
+}
+.hoverul li{
+  width:300px;
+  border-bottom: 1px solid black;
+}
+.hoverul li span{
+  font-size: 17px;
+}
+.hoverul li label{
+  font-size: 16px;
+}
+
+#option{
+  position: absolute;
+  left:1150px;
+  top: 5px;
+  height: 30px;
+}
+#option>li{
+  float: left;
+  font-size: 15px;
+  position: absolute;
+  width:30px;
+  height: 30px;
+}
+#option>li>img{
+  width:15px;
+  height: 15px;
+  margin-right: 3px;
+}
+#option>li:nth-of-type(1){
+  left:10px;
+  top:4px;
+}
+#option>li:nth-of-type(2){
+  left:30px;
+  top:4px;
+}
+#option>li:nth-of-type(3){
+  left:50px;
+  top:4px;
+}
+#findForm{
+  width:100px;
+  height: 24px;
+  position: absolute;
+  left:850px;
+  top: -2px;
+  border: 0px;
+}
+#findForm input{
+  height: 22px;
+  position: absolute;
+  border-radius: 4px;
+  top:-2px;
+  display: none;
+}
+#findForm img{
+  position: absolute;
+  top:2px;
+  width:18px;
+  height: 18px;
+  left:145px;
+  cursor: pointer;
+}
+#img1{
+  position: absolute;
+  left:1123px;
+  height: 26px;
+  top:3px;
+}
+#img2{
+  position:absolute;
+  left:1152px;
+  top: 5px;
+}
+#img3{
+  position:absolute;
+  left:1179px;
+  top: 7px;
+}
+#img4{
+  position:absolute;
+  left:1208px;
+  top: 8px;
+}
+#img2,#img3,#img4{
+  cursor: pointer;
+}
+#register,#login{
+  color:#c0c0c0;
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+#register:hover,#login:hover{
+  color: green;
+}
+#register{
+  left:1244px;
+  top:4px;
+}
+#login{
+  left:1290px;
+  top:4px;
+}

@@ -1,0 +1,149 @@
+@charset "UTF-8";
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+#footAll{
+	height: 480px;
+}
+.link{
+  width:1347px;
+  height:230px;
+  background-color: #f5f5f5;
+  position: relative;
+}
+.link ul{
+  width:1180px;
+  position: absolute;
+  left:85px;
+  height: 50px;
+  top:40px;
+}
+.link ul li{
+  float: left;
+  height: 30px;
+  line-height: 50px;
+  width:117px;
+  text-align: center;
+  font-size: 18px;
+}
+.link ul li a{
+  text-decoration: none;
+  color: black;
+  height: 15px;
+  /*border-right: 1px solid gray;*/
+}
+.link .linkleft,.linkcenter,.linkright{
+  width:370px;
+  height:120px;
+  background-color: #f5f5f5;
+  position: absolute;
+  top: 100px;
+}
+.linkleft{
+  left:100px;
+}
+.linkcenter{
+  left:480px;
+}
+.linkright{
+  left:870px;
+}
+.linkleft img,.linkcenter img,.linkright img{
+  position: absolute;
+  left:0px;
+  top:30px;
+}
+.linkleft p,.linkcenter p,.linkright p{
+  position: absolute;
+  left:75px;
+  top: 25px;
+  color: gray;
+  font-size: 13px;
+}
+.linkleft p label,.linkcenter p label,.linkright p label{
+  font-size: 16px;
+  color:black;
+  padding-bottom: 5px;
+}
+
+
+
+
+.foot{
+  width:1347px;
+  height:250px;
+  background-color: #333333;
+  position: relative;
+}
+#footp1{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  left:100px;
+  top:30px;
+}
+#footp2{
+  position: absolute;
+  width:540px;
+  left:300px;
+  top: 35px;
+  color: #c0c0c0;
+  font-size: 14px;
+}
+.find{
+  position: absolute;
+  left:100px;
+  top:120px;
+}
+.find a{
+  text-decoration: none;
+  color:#c0c0c0;
+  font-size: 15px;
+}
+.find a:hover{
+  text-decoration: underline;
+}
+.separator{
+  color: #c0c0c0;
+  margin: 0 18px;
+}
+.info{
+  position: absolute;
+  left:100px;
+  top:150px;
+  color: #c0c0c0;
+  font-size: 13px;
+}
+.friendlink{
+  position: absolute;
+  left:100px;
+  top: 410px;
+  font-size: 14px;
+  color: #c0c0c0;
+}
+.friendlink a{
+  text-decoration: none;
+  color: #c0c0c0;
+  margin-right: 15px;
+}
+.friendlink a:hover{
+  text-decoration: underline;
+}
+.TheImg{
+  position: relative;
+  left:1100px;
+  width:200px;
+  top:-205px;
+}
+.TheImg>p{
+  position: absolute;
+  left:-100px;
+  top:10px;
+  color: white;
+}
+.TheImg img{
+	width:43px;
+	height: 40px;
+}
